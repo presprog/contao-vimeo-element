@@ -1,0 +1,23 @@
+{
+    "name": "presprog/contao-vimeo-element",
+    "description": "This extension backports the Vimeo content element introduced in Contao 4.2 to Contao 3.5. Edit",
+    "type": "contao-module",
+    "require": {
+        "contao/core": "~3.0",
+        "contao-community-alliance/composer-plugin": "~2.4"
+    },
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Benedict Zinke",
+            "email": "bz@presentprogressive.de"
+        }
+    ],
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/vimeo-element"
+            }
+        }
+    }
+}
